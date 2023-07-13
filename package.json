@@ -1,0 +1,50 @@
+{
+  "name": "the-gallery",
+  "homepage": "https://deanssmart.github.io/the-gallery/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.78.2",
+    "@react-three/fiber": ">=8.0",
+    "drei": "^2.2.21",
+    "expo": ">=43.0",
+    "expo-asset": ">=8.4",
+    "expo-gl": ">=11.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": ">=0.64",
+    "react-spring": "^9.7.2",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.154.0",
+    "typescript": ">=3.9",
+    "undefined": "0.1.0",
+    "use-cannon": "^0.5.3",
+    "web-vitals": "^3.4.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
